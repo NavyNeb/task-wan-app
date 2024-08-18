@@ -1,0 +1,39 @@
+{
+  "cesVersion": "2.11.17",
+  "projectName": "meditation-app",
+  "packages": [
+    {
+      "name": "expo-router",
+      "type": "navigation",
+      "options": {
+        "type": "stack"
+      }
+    },
+    {
+      "name": "tamagui",
+      "type": "styling"
+    },
+    {
+      "name": "supabase",
+      "type": "authentication"
+    }
+  ],
+  "flags": {
+    "noGit": false,
+    "noInstall": false,
+    "overwrite": false,
+    "importAlias": true,
+    "packageManager": "yarn",
+    "eas": true
+  },
+  "packageManager": {
+    "type": "yarn",
+    "version": "1.22.19"
+  },
+  "os": {
+    "type": "Linux",
+    "platform": "linux",
+    "arch": "x64",
+    "kernelVersion": "6.5.0-41-generic"
+  }
+}
